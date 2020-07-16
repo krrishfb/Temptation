@@ -1,0 +1,65 @@
+body, html {
+  height: 100%;
+  width:100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h4 {
+    color: #D2691E;
+    
+}
+
+
+.navbar-nav{
+
+    padding-left: 30%;
+    
+}
+
+
+
+.size{
+
+    font-size:29px;
+}
+#more {display: none;}
+
+
+
+.carouselExampleIndicators{
+
+    position: relative;
+  width: 200px;
+  height: 100px;
+}
+
+
+
+
+ol.carousel-indicator{
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+ol.carousel-indicator li,
+ol.carousel-indicator li.active {
+  float: left;
+  width: 33%;
+  height: 10px;
+  margin: 0;
+  border-radius: 0;
+  border: 0;
+  background:grey;
+}
+
+#more {display: none;}
+
+
+

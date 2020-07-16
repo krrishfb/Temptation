@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width , intial-scale = 1.0">
+    <title> Tempetation - Bakery Shop </title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/Jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/home.js"></script>
+    <script src="js/all.min.js"></script>
+
+    <link rel="shortcut icon" type="icon" href="images/logo.png">
+
+
+</head>
+
+<body style="background-color:#FFF8DC ">
+
+    <!-- nav-bar -->
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light ">
+        <a>
+            <img src="images/logos.png" alt="logo1">
+            
+        </a>
+        <a style="font-family">
+            <h1>THE BAKERY SHOP</h1>
+        </a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ">
+                <li class="nav-item active navbar-brand">
+                    <a class="nav-link heading font-weight-bold" style="color:#D2691E;" href="#"><b><h3>HOME</h3></b> </a>                    <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active navbar-brand">
+                    <a class="nav-link heading " style="color: #F4A460;" href="/about.html">ABOUT</a>
+                </li>
+                <li class="nav-item active navbar-brand">
+                    <a class="nav-link heading" style="color: #F4A460;" href="#confectionery">CONFECTIONERIES</a>
+                </li>
+                <li class="nav-item active navbar-brand ">
+                    <a class="nav-link heading" style="color: #F4A460;" href="#gallery">ORDER</a>
+                </li>
+                <li class="nav-item active navbar-brand ">
+                    <a class="nav-link heading" style="color:#F4A460;" href="#gallery">GALLERY</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- slider -->
+
+    <div>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="height:100vh;">
+                    <img src="images/slide1.jpg" class="d-block w-100" alt="Chocolate Cupcake">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h3 style="color:#F5DEB3">Chocolate Cupcake</h3>
+                        <h4>"Friends are like cupcakes in my pantry of memories."</h4>
+                    </div>
+                </div>
+                <div class="carousel-item" style="height:100vh;">
+                    <img src="images/slide2.jpg" class="d-block w-100" alt="Chocolate Cake">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h3 style="color:#F5DEB3">Chocolate Cake</h3>
+                        <h4>"Don't wreck a sublime chocolate cake experience by feeling guilty."</h4>
+                    </div>
+                </div>
+                <div class="carousel-item" style="height:100vh;">
+                    <img src="images/slide3.jpg" class="d-block w-100" alt="Donuts and Bagel">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h2 style="color:#000000">Donuts and Bagel</h2>
+                        <h4 style="color:#2F4F4F">"Dare to be a sprinkled donut in a world full of plain bagels"</h4>
+                    </div>
+                </div>
+                <div class="carousel-item" style="height:100vh;">
+                    <img src="images/slide4.jpg" class="d-block w-100" alt="Whole-wheat Bread">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h3 style="color:#F5DEB3">Whole-wheat Bread</h3>
+                        <h4>“Good bread is the most fundamentally satisfying of all foods; and good bread with fresh butter,
+                            the greatest of feasts.”</h4>
+                    </div>
+                </div>
+                <div class="carousel-item" style="height:100vh;">
+                    <img src="images/slide5.jpg" class="d-block w-100" alt="Bacon and Rosemart">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h3 style="color:#F5DEB3">Bacon and Rosemart</h3>
+                        <h4>Rosemary and bacon is a colorful and savory dish to serve on weekend mornings or for holiday brunches.
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+
+    <!-- about us     -->
+
+
+    <div>
+
+        <div id="about">
+            <h1 class="text-center mt-5 mb-5 font-weight-bold " style="color:#800000;font-family: Times New Roman, Times, serif;">ABOUT US</h1>
+
+            <div class="container-fluid">
+                <div class="row justify-content-around ">
+
+                    <div class="col-5">
+                        <div>
+                            <div>
+                                <h3 style="color:#800000">BUY BAKERY PRODUCTS ONLINE AT BEST PRICES IN INDIA </h3>
+                            </div>
+
+                            <div>
+                                <b><h4 style="font-family: Arial, Helvetica, sans-serif;"><a class="font-italic font-weight-bold size " style = "color : #DAA520;">Temptation</a> 
+                                is India’s pioneering food destination present through physical retail stores, online portal and a 
+                                mobile application. Our footprint currently extends to over 36 neighbourhood convenience stores in 
+                                Mumbai, Pune and Bangalore with a diverse product portfolio.</h4>
+                                </b>
+                                <b>
+                                <h4  style="font-family: Arial, Helvetica, sans-serif;">Our aim is to redefine India’s freshest and finest food experience for
+                                   our customers. Be it the freshest and irresistible bakery products and more, for us, our 
+                                   customers’ needs come first and to serve them better and offer the best 
+                                   in terms of quality, benefits, flavour and taste we have grown and 
+                                   nurtured our own brands over the years. Healthy Alternatives, L’Exclusif 
+                                   and Nature’s are our range of own brands, each providing a distinct offering to cater to the discerning palate of 
+                                    the Indian consumer.
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-5 ">
+                        <div class="container-fluid ">
+                            <img src="images/aboutimg.jpg " alt="about image ">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+<br>
+<br>
+
+    <!-- confectioneries -->
+            <div id="confectionery">
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators" style=" position: absolute; bottom: 0; margin: 0;left: 0;right: 0; width: auto;">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"style="float: left;
+  width: 33%;
+  height: 10px;
+  margin: 0;
+  border-radius: 0;
+  border: 0;
+  background:grey;"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"style="float: left;
+  width: 33%;
+  height: 10px;
+  margin: 0;
+  border-radius: 0;
+  border: 0;
+  background:grey;"></li>
+  </ol>
+  <div class="carousel-inner">
+
+        
+            <!-- card slider1 -->
+
+    <div class="carousel-item active">
+      <div class="container-fluid justify-content-around">
+          
+          
+
+                <div class="card-deck">
+  <div class="card">
+    <img  src="images/cakes.jpg" class="card-img-top rounded-circle" alt="Card image cap">
+    <div class="card-body">
+      <h5 class ="card-title"  style="text-align:center;">CAKES</h5>
+      <p class="card-text">Sponge cakes (or foam cakes) are made from whipped eggs, sugar, and flour.Chiffon cakes are sponge cakes with vegetable oil, which adds moistness.
+Chocolate cakes are butter cakes, sponge cakes, or other cakes flavored with melted chocolate or cocoa powder. German chocolate cake is a variety of chocolate cake.
+</p>
+
+    </div>
+    
+  </div>
+  <div class="card">
+    <img class="card-img-top rounded-circle" src="images/bagels.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title" style="text-align:center;">BAGELS</h5>
+      <p class="card-text">A bagel (also spelled beigel) is a type of bread, traditionally shaped by hand into the form of a ring from wheat dough, roughly hand-sized. This dough, which is made with yeast, is first boiled for a short time in water and is then baked. The result is a dense, chewy, doughy interior with a browned and sometimes crisp exterior, depending on bake type.</p>
+    </div>
+    
+  </div>
+  <div class="card">
+    <img class="card-img-top rounded-circle" src="images/cookies.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title" style="text-align:center;">COOKIES</h5>
+      <p class="card-text">A cookie is a baked or cooked food that is typically small, flat and sweet. It usually contains flour, sugar and some type of oil or fat. It may include other ingredients such as raisins, oats, chocolate chips, nuts, etc.</p>
+    </div>
+    
+  </div>
+</div>
+
+
+
+      </div>
+    </div>
+
+        <!-- card slider1 end -->
+
+
+    <!-- card slider2 --> 
+
+    <div class="carousel-item ">
+      <div class="container-fluid justify-content-around" >
+
+
+
+
+        <div class="card-deck">
+  <div class="card">
+    <img class="card-img-top rounded-circle" src="images/doughnuts.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"style="text-align:center;">DOUGHNUTS</h5>
+      <p class="card-text">A doughnut or donut (the latter spelling often seen in American English) is a type of fried dough confection or dessert food.Doughnuts are usually deep fried from a flour dough, and typically either ring-shaped or a number of shapes without a hole, and often filled, but can also be ball-shaped ("doughnut holes").</p>
+    </div>    
+  </div>
+
+  <div class="card">
+    <img class="card-img-top rounded-circle" src="images/pastries.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"style="text-align:center;">PASTRIES</h5>
+      <p class="card-text">Shortcrust pastry, filo pastry, choux pastry, flaky pastry and puff pastry.</p>
+    </div>    
+  </div>
+
+  <div class="card">
+    <img class="card-img-top rounded-circle" src="images/scones.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"style="text-align:center;">SCONES</h5>
+      <p class="card-text"> Light and airy, dense and cake-like, or classically crumbly, scones are the perfect brunch or tea-time treat. From lemon-cranberry to chocolate pecan to ham and scallion (and event peanut butter bacon!) this collection of drool-inducing baked goods would even impress Queen Elizabeth herself.</p>
+    </div>    
+  </div>
+
+        </div>
+      </div>
+    
+
+</div>
+
+
+
+
+      
+
+            <!-- card slider2 end -->
+
+    
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>                
+            </div>
+
+            <!-- Gallery -->
+
+            <div id="gallery">
+
+                <h1 class="text-center display-4 mt-5 mb-5 font-weight-bold " style="font-size: 38px;">GALLERY</h1>
+
+                <div class="container-fluid ">
+                    <div class="row justify-content-around">
+  <div class="column">
+    <img  style="float: left;
+    width:  200px;
+    height: 200px;
+    background-size: cover;" src="images/gallery/1.jpg" alt="Snow" style="width:100%">
+  </div>
+
+  <div class="column">
+    <img style="float: left;
+    width:  200px;
+    height: 200px;
+    background-size: cover;" src="images/gallery/2.jpg" alt="Forest" style="width:100%">
+  </div>
+
+  <div  class="column">
+    <img style="float: left;
+    width:  200px;
+    height: 200px;
+    background-size: cover;" src="images/gallery/3.jpg" alt="Mountains" style="width:100%">
+  </div>
+
+  <div class="column">
+    <img style="float: left;
+    width:  200px;
+    height: 200px;
+    background-size: cover;" src="images/gallery/4.jpg" alt="Mountains" style="width:100%">
+  </div>
+
+  <div class="column">
+    <img style="float: left;
+    width:  200px;
+    height: 200px;
+    background-size: cover;" src="images/gallery/5.jpg" alt="Mountains" style="width:100%">
+  </div>
+
+  <div class="column">
+    <img style="float: left;
+    width:  200px;
+    height: 200px;
+    background-size: cover;" src="images/gallery/6.jpg" alt="Mountains" style="width:100%">
+  </div>
+
+  <div class="column">
+    <img style="float: left;
+    width:  200px;
+    height: 200px;
+    background-size: cover;" src="images/gallery/7.jpg" alt="Mountains" style="width:100%">
+  </div>
+
+  <div class="column">
+    <img style="float: left;
+    width:  200px;
+    height: 200px;
+    background-size: cover;" src="images/gallery/8.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+                </div>
+
+
+
+            </div>
+            <br>
+
+
+            <footer id="footer "class="border border-dark" >
+                <div class="container ">
+                    <div class="row py-4">
+                        <div  class="col-6 ">
+                            <img style="float:left;" src="images/logo.png ">
+                            
+                                        <br>
+                                        <span> <i style="float:left;" class="fas fa-copyright "></i> Copyright 1998-2020 </span>
+                            </div>
+
+                            <div class="col-6 heading">
+                                <div class="row justify-content-end">
+                                    <span class="px-3"><i  class="fab fa-facebook-square "></i> Facebook </span>
+                                    <span class="px-3"><i class="fab fa-whatsapp "></i> Whatsapp </span>
+                                    <span class="px-3"><i  class="fab fa-google-plus-g "></i> Google+ </span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </footer>
+
+
+
+
+
+
+</body>
